@@ -3,7 +3,7 @@ Albion Krasniqi
 November 10, 2024
 
 
-November 10, 2024 — 10:35 AM
+November 10, 2024 — 10:35 pm
 
 **Thoughts So Far**
 I read the project requirements and the sample output. 
@@ -32,14 +32,14 @@ git commit -m "Initial commit: Created devlog.md and repository"
 git add main.c
 git commit -m "Add shared resources and threading structure"
 
- November 10, 2024 — 10:50 AM
+ November 10, 2024 — 10:50 pm
  
 **Reflection**
 Goal achieved. The program has been set up and has proper structure.
 Next: Implement main() thread creation 
 
 
-November 10, 2024 — 11:11 AM
+November 10, 2024 — 11:11 pm
 
 **Thoughts So Far**
 Now that structure is working, I will implement the runtime piece-by-piece:
@@ -59,3 +59,6 @@ Added shutdown process
 git add bank.c
 git commit -m "Implement main(): initialize semaphores, start teller and customer threads"
 git commit -m "Add shutdown logic to close bank when all customers served"
+
+**Reflection 11:24 pm**
+Everything launches successfully and shuts down cleanly and now I will implement detailed teller/customer behavior.
