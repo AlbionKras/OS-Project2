@@ -1,9 +1,9 @@
 CS 4348 Project 2
 Albion Krasniqi
-November 10, 2024
+November 16, 2024
 
 
-November 10, 2024 — 10:35 pm
+November 16, 2024 — 10:35 pm
 
 **Thoughts So Far**
 I read the project requirements and the sample output. 
@@ -39,7 +39,7 @@ Goal achieved. The program has been set up and has proper structure.
 Next: Implement main() thread creation 
 
 
-November 10, 2024 — 11:11 pm
+November 16, 2024 — 11:11 pm
 
 **Thoughts So Far**
 Now that structure is working, I will implement the runtime piece-by-piece:
