@@ -32,9 +32,7 @@ git commit -m "Initial commit: Created devlog.md and repository"
 git add main.c
 git commit -m "Add shared resources and threading structure"
 
- November 16, 2024 — 10:50 pm
- 
-**Reflection**
+**Reflection 10:50 pm**
 Goal achieved. The program has been set up and has proper structure and now implement main() thread creation 
 
 
@@ -61,3 +59,24 @@ git commit -m "Add shutdown logic to close bank when all customers served"
 
 **Reflection 11:24 pm**
 Everything launches successfully and shuts down cleanly and now I will implement detailed teller/customer behavior.
+
+
+November 16, 2024 — 11:40 AM
+
+**Thoughts So Far**
+Now that the bank opens correctly and threads are running, the missing piece is all the actual synchronization rules that make this assignment meaningful.
+
+**Plan for This Session**
+Implement full customer() behavior
+Implement communication with teller using semaphores
+Implement safe + manager semaphore logic in teller()
+Add all required print statements w/ output mutex
+
+**Actions Taken**
+Customer now meets the requirements and runs smoothly.
+Teller now correct manager behavior for withdrawal enters safe w/ 2 limit.
+
+**Git Commits This Session**
+git add bank.c
+git commit -m "Add full customer workflow: entering bank, queueing, and transaction request"
+git commit -m "Implement teller logic: dequeue customers, enforce manager and safe semaphore rules"
