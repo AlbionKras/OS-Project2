@@ -1,3 +1,8 @@
+CS 4348 Project 2
+Albion Krasniqi
+November 10, 2024
+
+
 November 10, 2024 — 10:35 AM
 
 **Thoughts So Far**
