@@ -32,11 +32,10 @@ git commit -m "Initial commit: Created devlog.md and repository"
 git add main.c
 git commit -m "Add shared resources and threading structure"
 
- November 10, 2024 — 10:50 pm
+ November 16, 2024 — 10:50 pm
  
 **Reflection**
-Goal achieved. The program has been set up and has proper structure.
-Next: Implement main() thread creation 
+Goal achieved. The program has been set up and has proper structure and now implement main() thread creation 
 
 
 November 16, 2024 — 11:11 pm
