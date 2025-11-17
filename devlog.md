@@ -80,3 +80,6 @@ Teller now correct manager behavior for withdrawal enters safe w/ 2 limit.
 git add bank.c
 git commit -m "Add full customer workflow: entering bank, queueing, and transaction request"
 git commit -m "Implement teller logic: dequeue customers, enforce manager and safe semaphore rules"
+
+**Reflection 11:51 pm**
+Programs runs smoothly and time to put everything together to sumbit
